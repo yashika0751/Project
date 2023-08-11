@@ -1,0 +1,209 @@
+/* Resetting default styles and defining overall layout */
+body {
+    /* Resetting margin and padding */
+    margin: 0;
+    padding: 0;
+    /* Ensuring consistent box-sizing */
+    box-sizing: border-box;
+    /* Setting a light background color */
+    background-color: #f7f7f7;
+    /* Full width of the viewport */
+    width: 100%;
+}
+
+/* Styling main headings */
+h1, h2, h3 {
+    /* Using custom font for headings */
+    font-family: 'Tektur', sans-serif;
+}
+
+/* Styling paragraphs */
+p {
+    /* Using a clean font for paragraphs */
+    font-family: 'roboto', sans-serif;
+}
+
+/* Styling image section */
+#image-s > div {
+    /* Arranging images in a row */
+    display: flex;
+}
+
+#image-s > div > figure {
+    /* Setting dimensions and spacing for images */
+    width: 23%;
+    margin: 20px;
+}
+
+#image-s > div > figure > img {
+    /* Ensuring images fit within their containers */
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
+}
+#image-s .image-container figure img:hover {
+    transform: scale(1.1); /* Increase size by 10% on hover */
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+/* Styling video and text section */
+main > section:nth-child(2) {
+    /* Arranging content side by side */
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+main > section:nth-child(2) > div > video {
+    /* Creating space between video and text */
+    margin-right: 120px;
+    /* Ensuring video fits within the container */
+    max-width: 100%;
+}
+
+main > section:nth-child(2) > div > h2 {
+    /* Styling subheading for the section */
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Styling unordered list */
+main > section:nth-child(2) > div > ul {
+    /* Using a different font and color for the list */
+    font-family: 'DM Sans', sans-serif;
+    color: #000000;
+    /* Making list items bold */
+    font-weight: bold;
+}
+main > section:nth-child(2) > div > button {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #8BC34A;
+    padding: 6px 20px;
+    border-radius: 6px;
+}
+/* Styling product details section */
+#Product-details {
+    /* Adding margin and padding around the section */
+    margin: 20px;
+    padding: 20px;
+    /* Adding a light background color and a subtle border */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#Product-details h2 {
+    /* Styling the main heading for the section */
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+#Product-details p {
+    /* Styling paragraphs within the product details */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+#Product-details strong {
+    /* Highlighting important text within the section */
+    color: #333333;
+}
+
+/* Styling reviews section */
+main > section:nth-child(4) {
+    /* Adding margin, padding, and background color to reviews section */
+    margin: 20px;
+    padding: 20px;
+    background-color: #000000;
+    /* Adding a subtle border and rounded corners */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Setting a maximum width for the section */
+    width: 80%;
+}
+
+main > section:nth-child(4) > div > label {
+    /* Styling labels for input fields */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    /* Setting label text color */
+    color: #ffffff;
+    /* Applying a custom font to labels */
+    font-family: 'Tektur', sans-serif;
+}
+
+main > section:nth-child(4) > div > textarea {
+    /* Styling textarea for user input */
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Allowing vertical resizing of the textarea */
+    resize: vertical;
+    /* Choosing a readable font and text color */
+    font-family: 'DM Sans', sans-serif;
+    color: #333333;
+    /* Adding a light background color */
+    background-color: #f7f7f7;
+}
+
+/* Styling review section */
+main > #rere > div {
+    /* Creating space below the section */
+    padding-bottom: 3px;
+    margin-top: 20px;
+    /* Adding a light background color */
+    background-color: #f9f9f9;
+    /* Indenting the section from the left */
+    margin-left: 20px;
+}
+
+main > #rere > div > h2 {
+    /* Styling heading for the review section */
+    font-size: 36px;
+    color: #333333;
+    margin: 0;
+}
+
+/* Styling individual reviews */
+.reviews-section {
+    /* Arranging reviews in a column */
+    display: flex;
+    flex-direction: column;
+    /* Adding padding, border, and background color */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Setting a maximum width for the section */
+    width: 80%;
+}
+
+.review {
+    /* Creating space between reviews */
+    margin: 10px 0;
+    padding: 10px;
+    /* Adding a border around each review */
+    border: 1px solid #ccc;
+    /* Setting a white background color for reviews */
+    background-color: white;
+}
+
+.review h3 {
+    /* Styling review titles */
+    margin-top: 0;
+}
+
+.review p {
+    /* Styling review text */
+    margin-bottom: 0;
+    /* Using a clean font for readability */
+    font-family: 'roboto', sans-serif;
+}
+

@@ -1,0 +1,113 @@
+/* Reset default margin and padding for the entire body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the figcaption element */
+figcaption {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Tektur', sans-serif;
+}
+/* Styles for the first section of the main content */
+main > section:nth-child(1) {
+    height: 100vh;
+    background-image: url("../IMG/wearing\ headp.jpg");
+    background-size: cover;
+}
+
+/* Styles for the content within the first section */
+main > section:nth-child(1) > div {
+    display: flex;
+    justify-content: center;
+    background: rgba(0,0,0,.7);
+    height: 100%;
+    color: #f7f7f7;
+    font-size: 30px;
+}
+
+/* Styles for the h2 element within the second section */
+main > section:nth-child(2) > div {
+    padding: 2.5%;
+}
+main > section:nth-child(2) > div > h2 {
+    height: auto;
+    position: relative;
+    margin: auto;
+    left: 100px;
+}
+
+/* Global styles for h2 elements */
+h2 {
+    font-size: 50px;
+    color: #333333;
+}
+
+/* Styles for the third section containing images and captions */
+section:nth-child(3) > div {
+    display: flex;
+}
+
+/* Styles for the figures within the third section */
+section:nth-child(3) > div > figure {
+    width: 26%; 
+    text-align: center;
+    margin: 45px;
+}
+
+/* Styles for the images within the third section */
+section:nth-child(3) > div > figure > img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Styles for the captions within the third section */
+section:nth-child(3) > div > figure > figcaption {
+    margin-top: 5px; 
+    font-size: 30px;
+    color: #333333;
+}
+
+/* Styles for the h2 element within the fourth section */
+main > section:nth-child(4) > div {
+    padding: 2.5%;
+}
+main > section:nth-child(4) > div > h2 {
+    height: auto;
+    position: relative;
+    margin: auto;
+    left: 30px;
+}
+
+/* Styles for the h2 element within the fifth section */
+main > section:nth-child(5) > h2 {
+    height: auto;
+    position: relative;
+    margin: auto;
+    left: 100px;
+}
+
+/* Styles for the fifth section containing a product image and description */
+main > section:nth-child(5) {
+    padding: 2%;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+/* Styles for the content within the fifth section */
+main > section:nth-child(5) > div >figure{
+    width: 350px;
+    height: auto;
+}
+
+/* Styles for the product image within the fifth section */
+main > section:nth-child(5) > div >figure > img{
+    width: 100%;
+    height: auto;
+}
+

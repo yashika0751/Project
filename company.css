@@ -1,0 +1,126 @@
+/* Reset default margin for the whole page */
+body {
+    margin: 0;
+}
+/* Common styles for sections */
+section:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fb7070;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+section:nth-child(1) > div > h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Tektur', sans-serif;
+}
+section:nth-child(1) > div > p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+section:nth-child(1) > div:first-child {
+    flex: 1;
+    padding-right: 20px;
+    margin: 20px;
+}
+section:nth-child(1) > div > img {
+    max-width: 100%;
+    height: auto;
+}
+/* Style for the captions */
+section:nth-child(2) {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url("../IMG/founders.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  section:nth-child(2) > div > h2 {
+    color: #f9f9f9;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Tektur', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  section:nth-child(2) > div > p {
+    color: #f7c25a;
+    font-size: 22px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+/* Style for the third section */
+main > section:nth-child(3) > div {
+    padding: 4%;
+}
+main > section:nth-child(3) > div > h2 {
+    /* Styles for the heading within the second section */
+    height: auto;
+    position: relative;
+    margin: auto;
+    left: 100px;
+    font-size: 50px;
+    color: #333333;
+    font-family: 'Tektur', sans-serif;
+}
+/* Flex layout for the fourth section */
+section:nth-child(4) > div {
+    display: flex;
+}
+
+/* Styles for the figures within the fourth section */
+section:nth-child(4) > div > figure {
+    width: 29%;
+    text-align: center;
+    margin: 45px;
+}
+
+/* Styles for the images within the fourth section */
+section:nth-child(4) > div > figure > img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
+}
+#ii .image-container figure img:hover {
+    transform: scale(1.1); /* Increase size by 10% on hover */
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+/* Flex layout for the fifth section */
+section:nth-child(5) > div {
+    display: flex;
+}
+
+/* Styles for the figures within the fifth section */
+section:nth-child(5) > div > figure {
+    width: 29%;
+    text-align: center;
+    margin: 45px;
+}
+
+/* Styles for the images within the fifth section */
+section:nth-child(5) > div > figure > img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
+}
+#ii2 .image-container figure img:hover {
+    transform: scale(1.1); /* Increase size by 10% on hover */
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+

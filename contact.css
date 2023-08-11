@@ -1,0 +1,182 @@
+/* Reset default margin for the entire body */
+body {
+    margin: 0;
+}
+
+/* Header section styles */
+main > section:nth-child(1) > div {
+    padding: 2.5%;
+    border: 1px solid #ccc;
+}
+
+/* Header text styles */
+main > section:nth-child(1) > div > h1 {
+    height: auto;
+    position: relative;
+    margin: auto;
+    left: 100px;
+    font-size: 32px;
+    color: #333333;
+    font-family: 'Tektur', sans-serif;
+}
+
+/* Issue section styles */
+#issue {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Issue description paragraph styles */
+#issue > div > p {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Container for issue type and description */
+#issue-type,
+#description {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+/* Common label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Select and textarea styles */
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Background and border styles for the issue section */
+#issue {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Padding for issue type and description containers */
+#issue-type,
+#description {
+    padding: 10px;
+}
+
+/* Margin for select and textarea elements */
+select,
+textarea {
+    margin-top: 5px;
+}
+
+/* Styling for select elements */
+select {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Resizable textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Form section styles */
+#form {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Form content container */
+#form div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Label styles for input fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Input field styles for text and email */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 15%;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Styling when input fields are focused */
+input[type="text"]:focus,
+input[type="email"]:focus {
+    outline: none;
+    border-color: #007bff;
+    width: 15%;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Updates section styles */
+#updates {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Updates content container */
+#updates div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Label styles for radio buttons */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Styling for radio button labels */
+label[for="subscribe-yes"],
+label[for="subscribe-no"] {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+    font-family: 'roboto', sans-serif;
+}
+
+/* Highlight selected radio button label */
+input[type="radio"]:checked + label {
+    background-color: #17a2b8;
+    font-family: 'roboto', sans-serif;
+}

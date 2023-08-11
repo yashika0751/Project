@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for document information -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is the HTML document for Project">
+    <title>Project</title>
+    <!-- jQuery and custom JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/js.js"></script>
+    <!-- Prevent search engines from indexing -->
+    <meta name="robots" content="noindex, nofollow">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="./css/contact.css">
+    <!-- Linking to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,200&family=Roboto:ital,wght@0,300;1,400&family=Tektur&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section -->
+    <header id="header">
+    </header>
+
+    <main>
+        <!-- Section 1: Introduction -->
+        <section id="hello">
+            <div>
+                <h1>Hello. What can we help you with?</h1>
+            </div>
+        </section>
+
+        <!-- Section 2: Select Product and Issue -->
+        <section id="issue">
+            <div id="issue-type">
+                <p>If you're experiencing issues with any of the products, choose the option that best describes your problem:</p>
+                <label for="Product-selection">Select a Product</label>
+                <select id="Product-selection" name="Product-selection"> 
+                    <option value="choice">Choose one</option>
+                    <option value="sony-walkman">Sony Walkman</option>
+                    <option value="headphones">Headphones</option>
+                    <option value="speakers">Speakers</option>
+                    <option value="cameras">Cameras</option>
+                    <option value="televisions">Televisions</option>
+                    <option value="other-products">Other Products</option>
+                </select>
+
+                <label for="issue">Select an issue-type</label>
+                <select id="issue" name="issue"> 
+                    <option value="choice">Choose one</option>
+                    <option value="audio-issues">Audio Issues</option>
+                    <option value="syncing-problems">Syncing Problems</option>
+                    <option value="software-update">Software Update</option>
+                    <option value="charging-issues">Charging Issues</option>
+                    <option value="screen-not-working">Screen Not Working</option>
+                    <option value="buttons-not-responding">Buttons Not Responding</option>
+                    <option value="storage-issues">Storage Issues</option>
+                    <option value="firmware-corruption">Firmware Corruption</option>
+                    <option value="other">Other</option>    
+                </select>          
+            </div>
+            <div id="description">
+                <label for="description of your Product">Model of your Product</label>
+                <textarea id="description" name="description" rows="1"></textarea>
+            </div>
+        </section>
+
+        <!-- Section 3: User Information -->
+        <section id="form">
+            <div>
+                <label for="first name">First Name:</label>
+                <input type="text" name="name" id="name" required>   
+                <label for="name">Last Name:</label>
+                <input type="text" name="name" id="name" required>   
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>      
+            </div>
+        </section>
+
+        <!-- Section 4: Subscribe to Updates -->
+        <section id="updates">
+            <div>
+                <label for="subscribe-updates">Subscribe to Updates and New Products:</label>
+                <input type="radio" name="subscribe-updates" id="subscribe-yes" value="yes">
+                <label for="subscribe-yes">Yes</label>
+                <input type="radio" name="subscribe-updates" id="subscribe-no" value="no">
+                <label for="subscribe-no">No</label>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer id="footer">
+    </footer>
+</body>
+</html>
